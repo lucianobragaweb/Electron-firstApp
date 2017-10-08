@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="photon/dist/css/photon.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demo App</title>
+
+    <!-- Photon.css -->
+    <link rel="stylesheet" href="/dist/css/photon.min.css">
+
+    <style>
+      .window {
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      .sidebar {
+        background-color: #f5f5f4;
+      }
+    </style>
   </head>
   <body>
     <div class="window">
@@ -240,10 +253,5 @@
         </div>
       </div>
     </div>
-
-    <script>
-      // You can also require other files to run in this process
-      require('./renderer.js')
-    </script>
   </body>
 </html>
